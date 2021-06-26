@@ -13,6 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.title = "Debugging"
         // Do any additional setup after loading the view.
+        
+        var names = ["Tammy", "Cole"]
+        names.removeFirst()
+        names.removeFirst()
+
+
     }
 
 
